@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+
+     <div class="heading">
+        <h1 id="title">Calculator</h1>
+        <P id="description">Zen calculator Task</P>
+     </div>
+
+      <div class="mainContainer">
+        
+        <div class="inputContainer">
+          
+          <input type="text" id="result" placeholder="0">
+        </div>
+
+        <div class="buttonContainer">
+          <button class="button" id="clear" onclick="allclear()">C</button>
+          <button class="button" onclick="del()">←</button>
+          <button class="button" onclick="input('.')">.</button>
+          <button class="button1" onclick="input('*')">*</button>
+          <button class="button" onclick="input('7')">7</button>
+          <button class="button" onclick="input('8')">8</button>
+          <button class="button" onclick="input('9')">9</button>
+          <button class="button1" onclick="input('/')">/</button>
+          <button class="button" onclick="input('4')">4</button>
+          <button class="button" onclick="input('5')">5</button>
+          <button class="button" onclick="input('6')">6</button>
+          <button class="button1" id="subtract" onclick="input('-')">-</button>
+          <button class="button" id="1" onclick="input('1')">1</button>
+          <button class="button" id="2" onclick="input('2')">2</button>
+          <button class="button" id="3" onclick="input('3')">3</button>
+          <button class="button1" id="add" onclick="input('+')">+</button>
+          <button class="button" onclick="input('0')">0</button>
+          <button class="button" onclick="input('00')">00</button>
+          <button class="button1" id="equal" onclick="eql()">=</button>
+        </div>
+
+      </div>
+ 
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    
+</body>
+</html>
